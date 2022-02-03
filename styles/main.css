@@ -1,0 +1,40 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition-duration: 0.15s;
+  background-repeat: no-repeat;
+  background-position: center;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  user-select: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+.first{
+  background: rgb(200, 193, 193);
+  width: 500px;
+  
+}
+
+.first tr td{
+  text-align: center;
+  padding: 5px 20px;
+}
+
+.kako{
+  background-color: aliceblue;
+}
